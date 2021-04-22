@@ -17,6 +17,7 @@ public class Main {
         arr[6] =70;
 
         Arrays.stream(arr).forEach(e -> System.out.println(e + ""));
+        System.out.println("sum is " + Arrays.stream(arr).sum());
 
         }
     }
