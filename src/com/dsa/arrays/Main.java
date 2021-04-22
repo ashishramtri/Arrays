@@ -19,6 +19,19 @@ public class Main {
         Arrays.stream(arr).forEach(e -> System.out.println(e + ""));
         System.out.println("sum is " + Arrays.stream(arr).sum());
 
+        int index = -1;
+        int i;
+        for(i=0;i<arr.length;i++)
+        {
+            if(arr[i] == 100)
+            {
+                index = i;
+                break;
+            }
+
+        }
+        System.out.println("Index is :" + index);
+
         }
     }
 
